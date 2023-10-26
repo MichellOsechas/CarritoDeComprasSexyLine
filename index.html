@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sexy Line</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body data-theme="light">
+
+    <!-- NAV-BAR -->
+    <nav id="nav-bar">
+        <div id="nav-content">
+            <!-- <h1 id="nav-title">SexyLine</h1> -->
+            <img src="img/logoWhite.jpg" alt="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" id="shop-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg> 
+            <section class="cart">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="table-title">Imagen</th>
+                            <th class="table-title">Referencia</th>
+                            <th class="table-title">Precio</th>
+                            <th class="table-title">Cantidad</th>
+                            <th class="table-title">Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                </table>
+                <button id="table-clear">VACIAR CARRITO</button>
+            </section>              
+        </div>
+    </nav>
+
+    <!-- SECTION HERO -->
+    <section id="hero">
+        <div id="hero-content">
+            <h1 id="hero-title">¡Despierta tu feminidad!</h1>
+            <h2 id="hero-subtitle">Lencería - Perfumería - Productos eróticos</h2>
+            <div id="hero-input">
+                <input type="text" placeholder="Lencería - Perfumería - Productos eróticos">
+                <svg xmlns="http://www.w3.org/2000/svg" id="hero-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION INFO -->
+    <section id="info">
+        <div id="info-container">
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.848 8.25l1.536.887M7.848 8.25a3 3 0 11-5.196-3 3 3 0 015.196 3zm1.536.887a2.165 2.165 0 011.083 1.839c.005.351.054.695.14 1.024M9.384 9.137l2.077 1.199M7.848 15.75l1.536-.887m-1.536.887a3 3 0 11-5.196 3 3 3 0 015.196-3zm1.536-.887a2.165 2.165 0 001.083-1.838c.005-.352.054-.695.14-1.025m-1.223 2.863l2.077-1.199m0-3.328a4.323 4.323 0 012.068-1.379l5.325-1.628a4.5 4.5 0 012.48-.044l.803.215-7.794 4.5m-2.882-1.664A4.331 4.331 0 0010.607 12m3.736 0l7.794 4.5-.802.215a4.5 4.5 0 01-2.48-.043l-5.326-1.629a4.324 4.324 0 01-2.068-1.379M14.343 12l-2.882 1.664" />
+                </svg>
+                <p>Somos fabricantes</p>
+            </div>
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+                </svg>                  
+                <p>+300 Referencias</p>
+            </div>
+            <div class="info-div">
+                <svg xmlns="http://www.w3.org/2000/svg" class="info-icon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                </svg>               
+                <p>Envíos a todo el país</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SHOP -->
+    <section id="shop">
+        <div id="shop-container">
+            <h3 id="shop-title">- Lencería -</h3>
+            <ul id="shop-list">
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie1.jpg" alt="lingerie-1" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO SEXY LINE</p>
+                        <p>talla única</p>
+                        <p>(Todos los colores disponibles)</p>
+                        <p class="shop-price">$20</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie2.jpg" alt="lingerie-2" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO DIOSA</p>
+                        <p>talla única</p>
+                        <p>(Todos los colores disponibles)</p>
+                        <p class="shop-price">$20</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie3.jpg" alt="lingerie-3" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO DIVA</p>
+                        <p>talla única</p>
+                        <p>(Colores disponibles: negro y rojo)</p>
+                        <p class="shop-price">$15</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie4.jpg" alt="lingerie-4" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO CON ARNES</p>
+                        <p>talla única</p>
+                        <p>(Único color disponible)</p>
+                        <p class="shop-price">$18</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie5.jpg" alt="lingerie-5" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">ARNES COMPLETO</p>
+                        <p>Totalmente graduable</p>
+                        <p>(Todos los colores disponibles)</p>
+                        <p class="shop-price">$15</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie6.jpg" alt="lingerie-6" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO DIANA</p>
+                        <p>talla única</p>
+                        <p>(Colores disponibles: Blanco y rojo)</p>
+                        <p class="shop-price">$17</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <div class="shop-img">
+                        <img src="img/lingerie7.jpg" alt="lingerie-7" class="shop-info-img">
+                    </div>
+                    <div class="shop-info">
+                        <p class="shop-title">CONJUNTO FLORES</p>
+                        <p>talla única</p>
+                        <p>(Único color disponible)</p>
+                        <p class="shop-price">$16</p>
+                        <button class="shop-btn">AGREGAR AL CARRITO</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
